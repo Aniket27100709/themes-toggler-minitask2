@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100vh;
+    background-color: rgb(162, 233, 209);
+    color: black;
+    padding: 0;
+}
+
+.themes {
+    margin: 0 auto;
+    text-align: left;
+    max-width: 900;
+    padding: 35px;
+
+    div {
+        cursor: pointer;
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        border: 3px solid black;
+        opacity: 0.2;
+        margin: 2px 10px;
+
+        &.active {
+            opacity: 1;
+        }
+    }
+
+    #t-magenta {
+        background-color: rgb(219, 123, 219);
+    }
+
+    #t-violet {
+        background-color: rgb(248, 156, 248);
+    }
+
+    #t-teal {
+        background-color: rgb(65, 182, 182);
+    }
+
+    #t-purple {
+        background-color: rgb(226, 55, 226);
+    }
+
+    #t-rose {
+        background-color: rosybrown;
+    }
+}
+
+.info {
+    margin: 0 auto;
+    background-color: grey;
+    color: black;
+    max-width: 600px;
+    padding: 30px 30px 50px 40px;
+    border-radius: 10px;
+
+    h1 {
+        line-height: 1.5;
+        margin: 0;
+        font-size: 100px;
+        font-family: 'Alata', sans-serif;
+    }
+
+    p {
+        line-height: 1.5;
+        margin: 0;
+        font-family: 'Alata', sans-serif;
+    }
+}
+
+
+.App.t-magenta {
+    background-color: rgb(243, 59, 243);
+
+    .info {
+        background-color: lightgray;
+
+        h1 {
+            color: black;
+        }
+
+        p {
+            color: black;
+        }
+    }
+}
+
+.App.t-violet {
+    background-color: violet;
+
+    .info {
+        background-color: lightpink;
+
+        h1 {
+            color: black;
+        }
+
+        p {
+            color: black;
+        }
+    }
+}
+
+.App.t-teal {
+    background-color: rgb(95, 230, 230);
+
+    .info {
+        background-color: lightsteelblue;
+
+        h1 {
+            color: black;
+        }
+
+        p {
+            color: black;
+        }
+    }
+}
+
+.App.t-purple {
+    background-color: purple;
+
+    .info {
+        background-color: black;
+
+        h1 {
+            color: grey;
+        }
+
+        p {
+            color: grey;
+        }
+    }
+}
+
+.App.t-rose {
+    background-color: rosybrown;
+
+    .info {
+        background-color: lightblue;
+
+        h1 {
+            color: black;
+        }
+
+        p {
+            color: black;
+        }
+    }
+}
